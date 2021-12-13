@@ -13,6 +13,7 @@ public:
 	void setPrice(double price);
 	string getName();
 	double getPrice();
+	void printInfo();
 
 private:
 	string _name;

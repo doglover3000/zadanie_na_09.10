@@ -38,6 +38,11 @@ int Purchase::getNumberofProducts()
 	return _numofProd;
 }
 
+double Purchase::getTotalPrice()
+{
+	return _totalPrice;
+}
+
 double Purchase::setTotalPrice()
 {
 	return _totalPrice;

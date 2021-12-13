@@ -10,6 +10,9 @@ public:
 	void setNumberofProducts(int numofProd);
 	void setTotalPrice(double totalPrice);
 
+	virtual void add_purchase(Product& product);
+	virtual void printCheque();
+
 	Product& getProduct();
 	int getNumberofProducts();
 	double getTotalPrice();

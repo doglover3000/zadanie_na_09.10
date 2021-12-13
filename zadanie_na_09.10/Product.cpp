@@ -31,3 +31,8 @@ double Product::getPrice()
 {
 	return _price;
 }
+
+void Product::printInfo()
+{
+	cout << getName() << "    " << getPrice() << endl;
+}

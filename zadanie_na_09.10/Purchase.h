@@ -17,7 +17,11 @@ public:
 
 	Product& getProduct();
 	int getNumberofProducts();
-	double setTotalPrice();;
+	double getTotalPrice();
+	double setTotalPrice();
+
+	virtual void add_purchase(Product&) = 0;
+	virtual void printCheque() = 0;
 
 private:
 	Product _product;
